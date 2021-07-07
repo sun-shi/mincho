@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+  border-bottom: 5px solid green;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+h2,ul,p{
+  margin-left: 100px;
+}
+#grid ol{
+  border-right: 3px solid green;
+  margin-left: 5px;
+  width:120px;
+  margin-top: 0;
+  padding-top: 5px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+}
+@media (max-width: 600px){
+  #grid{
+    display:block
+  }
+  #grid ol{
+    border-right: none;
+    margin-left: 100px;
+    width: none;
+    margin-top: none;
+    padding-top: none;
+  }
+  h2,ul,p{
+    margin-left: none;
+  }
+  h1{
+
+  }
+}
