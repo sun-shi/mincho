@@ -4,6 +4,9 @@
 <title>김선규</title>
 <link rel="stylesheet" href="서타일.css"/>
 <meta charset="utf-8">
+<script src="">
+
+</script>
 </head>
 <body>
   <h1><a href="index.html">김선규의 원딜학 개론</a></h1>
@@ -15,6 +18,36 @@
 </ol>
 <div>
 <h2>원거리 딜러란 무엇인가</h2>
+<input type="button" value="본심 ON" onclick="
+var target=document.querySelector('body');
+if(this.value ==='본심 ON'){
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value='정신 차려...!';
+  var aList= document.querySelectorAll('a');
+  var i=0;
+  while (i<aList.length){
+    aList[i].style.color='powderblue';
+    i=i+1;
+  var bList=document.querySelectorAll('li');
+  var j=3;
+  while (j<bList.length){
+    bList[j].style.color='black';
+    j=j+1;
+  }
+  }
+}
+else {
+  target.style.backgroundColor='white';
+  target.style.color='black';
+  this.value='본심 ON';
+  var aList= document.querySelectorAll('a');
+  var i=0;
+  while (i<aList.length){
+    aList[i].style.color='green';
+    i=i+1;
+  }
+}">
 <ul>
   <li>적과 거리를 벌려 투사체를 발사해 공격한다.</li>
   <li>갑옷이나 장비는 경갑 등 이동이 쉽고 가벼운 장비를 사용한다.</li>
@@ -25,6 +58,9 @@
      <u>서포터의 실력이 떨어지는 상황에서 원딜은 성장을 제외하고 할 수 있는 게 제한된다.</u></li>
   <li>대체적으로 지속딜링과 총 딜량이 가장 높아 메인딜러 역할을 맡는다.</li>
   <br><br><br><br>
+  <p style="color:white;">
+    팀에서 원딜러가 제일 중요하고, 서포터는 원딜러를 위해 응당 희생할 줄 알아야 한다.
+  </p>
 </div>
 </div>
 </ul>
