@@ -4,7 +4,7 @@ h1{
   margin-bottom: 0;
   padding-bottom: 10px;
 }
-h2,ul,p{
+h2,ul,p,input{
   margin-left: 100px;
 }
 #grid ol{
