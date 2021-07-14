@@ -15,8 +15,47 @@
 </ol>
 <div>
 <h2>민초왕국 왕자님의 주 라인은?</h2>
-<p>
-<img src="제목 없음.jpg",width="60%">
+<p style="color:white;">
+  <script>
+  function button_1_action() {
+    document.images[0].src="와드.jpg";
+    document.images[0].width=200;
+  }
+  </script>
+<img src="제목 없음.jpg",width="60%"><br>
+
+
+<input type="button" value="원딜이 좋아하는건?" onclick="
+var target=document.querySelector('body');
+if(this.value ==='원딜이 좋아하는건?'){
+  button_1_action();
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value=' 서포터~ 와드 박아줘~!';
+  var aList= document.querySelectorAll('a');
+  var i=0;
+  while (i<aList.length){
+    aList[i].style.color='powderblue';
+    i=i+1;
+  }
+}
+else {
+  target.style.backgroundColor='white';
+  target.style.color='black';
+  this.value='원딜이 좋아하는건?';
+  var aList= document.querySelectorAll('a');
+  var i=0;
+  while (i<aList.length){
+    aList[i].style.color='green';
+    i=i+1;
+  }
+}
+">
+<br>
+원딜은 어두운 곳이 무서워....
+
+
+</div>
 </p>
 
   <br><br><br><br>
